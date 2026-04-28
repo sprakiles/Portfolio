@@ -3,50 +3,278 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Mahmoud Eid - Full-Stack Developer Portfolio. Building complete, high-performance web applications with React, TypeScript, Node.js, and modern web technologies." />
-    <meta name="keywords" content="Mahmoud Eid, Full-Stack Developer, React Developer, TypeScript, Web Development, Portfolio" />
+    <meta
+      name="description"
+      content="Mahmoud Eid (sprakiles) portfolio featuring frontend, web, desktop, machine learning, Minecraft modding, and computer vision projects."
+    />
+    <meta
+      name="keywords"
+      content="Mahmoud Eid, sprakiles, frontend developer, portfolio, Vue, JavaScript, Python, Java, C#, PHP"
+    />
     <meta name="author" content="Mahmoud Eid" />
-    <meta name="theme-color" content="#030014" />
-    
-    <!-- Open Graph / Social Media -->
+    <meta name="theme-color" content="#080b18" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Mahmoud Eid - Full-Stack Developer" />
-    <meta property="og:description" content="Building complete, high-performance web applications with modern technologies." />
-    
-    <title>Mahmoud Eid | Full-Stack Developer</title>
-    
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    
-    <!-- Tailwind CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Custom Styles -->
-    
-
-    <script type="importmap">
-{
-  "imports": {
-    "react": "https://aistudiocdn.com/react@^19.1.1",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
-    "react/": "https://aistudiocdn.com/react@^19.1.1/",
-    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.22",
-    "react-simple-typewriter": "https://aistudiocdn.com/react-simple-typewriter@^5.0.1",
-    "path": "https://aistudiocdn.com/path@^0.12.7",
-    "vite": "https://aistudiocdn.com/vite@^7.1.7",
-    "@vitejs/plugin-vue": "https://aistudiocdn.com/@vitejs/plugin-vue@^6.0.1",
-    "vue": "https://aistudiocdn.com/vue@^3.5.22",
-    "@vueuse/motion": "https://aistudiocdn.com/@vueuse/motion@^3.0.3"
-  }
-}
-</script>
-    <script type="module" crossorigin src="/Portfolio/assets/index-O7UZXlPQ.js"></script>
-    <link rel="stylesheet" crossorigin href="/Portfolio/assets/index-LYIEThJm.css">
+    <meta property="og:title" content="Mahmoud Eid | Frontend Developer" />
+    <meta
+      property="og:description"
+      content="A polished portfolio for Mahmoud Eid's public GitHub projects."
+    />
+    <meta property="og:url" content="https://sprakiles.github.io/Portfolio/" />
+    <title>Mahmoud Eid | Frontend Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <div class="spotlight"></div>
+    <div class="page-glow page-glow-one"></div>
+    <div class="page-glow page-glow-two"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Mahmoud Eid home">
+        <span>ME</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-cta" href="https://github.com/sprakiles" target="_blank" rel="noreferrer">GitHub</a>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Frontend developer · Project builder</p>
+          <h1>Hi, I’m Mahmoud Eid. I build clean digital products and useful developer tools.</h1>
+          <p class="hero-text">
+            I’m a frontend developer who enjoys turning ideas into fast, practical websites, apps,
+            utilities, and experiments across web, desktop, AI, and game tooling.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View my projects</a>
+            <a class="button secondary" href="https://github.com/sprakiles" target="_blank" rel="noreferrer">Visit GitHub</a>
+          </div>
+          <div class="hero-stats" aria-label="Portfolio stats">
+            <div>
+              <strong>8</strong>
+              <span>Featured projects</span>
+            </div>
+            <div>
+              <strong>7+</strong>
+              <span>Tech stacks</span>
+            </div>
+            <div>
+              <strong>2023</strong>
+              <span>GitHub since</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="profile-card reveal" aria-label="Profile summary">
+          <div class="avatar-wrap">
+            <img src="https://avatars.githubusercontent.com/u/154701518?v=4" alt="Mahmoud Eid GitHub avatar" />
+          </div>
+          <p class="profile-label">sprakiles</p>
+          <h2>Mahmoud Eid</h2>
+          <p>I am a frontend developer</p>
+          <div class="profile-links">
+            <a href="https://github.com/sprakiles" target="_blank" rel="noreferrer">GitHub Profile</a>
+            <a href="#contact">Work together</a>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section-shell intro-grid" aria-label="What I do">
+        <article class="info-card reveal">
+          <span class="card-icon">01</span>
+          <h2>Frontend websites</h2>
+          <p>Modern interfaces built with Vue, JavaScript, TypeScript, HTML, and CSS.</p>
+        </article>
+        <article class="info-card reveal">
+          <span class="card-icon">02</span>
+          <h2>Practical applications</h2>
+          <p>Task managers, ecommerce pages, calculators, todo apps, and everyday utilities.</p>
+        </article>
+        <article class="info-card reveal">
+          <span class="card-icon">03</span>
+          <h2>Experiments</h2>
+          <p>Machine learning, computer vision, Discord webhook tools, and Minecraft modding.</p>
+        </article>
+      </section>
+
+      <section id="projects" class="section-shell projects-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Selected work</p>
+          <h2>Projects from my GitHub</h2>
+          <p>Public repositories that show my range across frontend, backend, desktop, ML, and creative tooling.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured reveal">
+            <div class="project-topline">
+              <span class="language vue">Vue · TypeScript</span>
+              <span>Frontend</span>
+            </div>
+            <h3>Vexel</h3>
+            <p>Discord embed visualizer and webhook tool for designing messages before sending them.</p>
+            <div class="tag-row">
+              <span>Vue</span><span>TypeScript</span><span>JavaScript</span><span>CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/sprakiles/Vexel" target="_blank" rel="noreferrer">Repository</a>
+            </div>
+          </article>
+
+          <article class="project-card featured reveal">
+            <div class="project-topline">
+              <span class="language js">JavaScript</span>
+              <span>Web app</span>
+            </div>
+            <h3>Synergize</h3>
+            <p>A task management website focused on organizing work and keeping productivity simple.</p>
+            <div class="tag-row">
+              <span>JavaScript</span><span>TypeScript</span><span>HTML</span><span>CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="https://synergize-theta.vercel.app" target="_blank" rel="noreferrer">Live site</a>
+              <a href="https://github.com/sprakiles/Synergize" target="_blank" rel="noreferrer">Repository</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-topline">
+              <span class="language vue">Vue</span>
+              <span>Ecommerce</span>
+            </div>
+            <h3>Eco Glow</h3>
+            <p>An ecommerce website concept with a modern Vue interface and product-focused layout.</p>
+            <div class="tag-row">
+              <span>Vue</span><span>TypeScript</span><span>HTML</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/sprakiles/Eco-Glow" target="_blank" rel="noreferrer">Repository</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-topline">
+              <span class="language python">Python</span>
+              <span>Machine learning</span>
+            </div>
+            <h3>Profanity Detector</h3>
+            <p>Machine-learning profanity detector built to catch hidden words better than basic filtering.</p>
+            <div class="tag-row">
+              <span>Python</span><span>ML</span><span>Text detection</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/sprakiles/Profanity-detector" target="_blank" rel="noreferrer">Repository</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-topline">
+              <span class="language java">Java</span>
+              <span>Minecraft mod</span>
+            </div>
+            <h3>EchoingUtility</h3>
+            <p>My first Minecraft mod, showing Java development and game tooling experience.</p>
+            <div class="tag-row">
+              <span>Java</span><span>Minecraft</span><span>Modding</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/sprakiles/EchoingUtility" target="_blank" rel="noreferrer">Repository</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-topline">
+              <span class="language csharp">C#</span>
+              <span>Desktop app</span>
+            </div>
+            <h3>Calculator Windows</h3>
+            <p>A calculator application for Windows 10 and 11, built as a desktop software project.</p>
+            <div class="tag-row">
+              <span>C#</span><span>Windows</span><span>Desktop</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/sprakiles/Calculator-Windows" target="_blank" rel="noreferrer">Repository</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-topline">
+              <span class="language php">PHP</span>
+              <span>Productivity</span>
+            </div>
+            <h3>Todo List PHP</h3>
+            <p>A PHP todo list project for tracking tasks and practicing server-rendered app structure.</p>
+            <div class="tag-row">
+              <span>PHP</span><span>CSS</span><span>Todo app</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/sprakiles/Todo-list-php" target="_blank" rel="noreferrer">Repository</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-topline">
+              <span class="language vision">PureBasic · Python</span>
+              <span>Computer vision</span>
+            </div>
+            <h3>Sign to Text</h3>
+            <p>A computer vision project exploring sign recognition and conversion into text.</p>
+            <div class="tag-row">
+              <span>Computer vision</span><span>PureBasic</span><span>Python</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/sprakiles/Sign-to-text" target="_blank" rel="noreferrer">Repository</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section-shell skills-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Toolbox</p>
+          <h2>Technologies I work with</h2>
+        </div>
+        <div class="skills-grid reveal" aria-label="Skills list">
+          <span>Vue</span>
+          <span>JavaScript</span>
+          <span>TypeScript</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>Python</span>
+          <span>Java</span>
+          <span>C#</span>
+          <span>PHP</span>
+          <span>Machine Learning</span>
+          <span>Computer Vision</span>
+          <span>Minecraft Modding</span>
+        </div>
+      </section>
+
+      <section id="contact" class="section-shell contact-section reveal">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Want to see more?</h2>
+          <p>Explore the repositories, check the live Synergize app, or reach out through GitHub.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="https://github.com/sprakiles" target="_blank" rel="noreferrer">Open GitHub</a>
+          <a class="button secondary" href="https://github.com/sprakiles?tab=repositories" target="_blank" rel="noreferrer">All repositories</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Mahmoud Eid. Built with HTML, CSS, and JavaScript.</p>
+    </footer>
+
+    <script src="./script.js"></script>
   </body>
 </html>
